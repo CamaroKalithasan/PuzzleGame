@@ -2,7 +2,7 @@
  
 READ ME
 
-Directions:
+Directions and Tips:
 
-- Use W,A,S,D keys to move
-- 
+- Click or press and hold LMB anywhere on the screen to move
+- Press 'E' to interact with objects
