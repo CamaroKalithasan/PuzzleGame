@@ -1091,3 +1091,5 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.27-20.26.19:066][489]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
 [2023.02.27-20.26.20:819][629]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
 [2023.02.27-20.26.20:820][629]LogWindows: Warning: URL: C:/Program Files/Epic Games/UE_5.1/Engine/Binaries/Win64/ version
+[2023.02.27-20.26.46:436][874]SourceControl: Source control is disabled
+[2023.02.27-20.26.46:436][874]LogSlate: Window 'Source Control Login' being destroyed
