@@ -69,7 +69,9 @@
 				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/ThirdPerson/Blueprints/EnemyAI.uasset",
 				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/4/M2/1WGU1QSBDIMNXKT62X06MN.uasset",
-				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Maps/TopDownMap.umap"
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Maps/TopDownMap.umap",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/GameMap1/4/MG/2HPQ8IAZXU5WNMVSIT9CJQ.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Blueprints/BP_TopDownController.uasset"
 			]
 		}
 	]
