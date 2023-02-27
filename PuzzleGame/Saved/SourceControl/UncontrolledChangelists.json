@@ -56,7 +56,19 @@
 				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalObjects__/TopDown/Maps/GameMap1/4/8B/C0I2J8AWQE3D85WJ07XO8D.uasset",
 				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalObjects__/TopDown/Maps/GameMap1/6/G4/3NN2ZV6CXOEDMPHDQX0ZME.uasset",
 				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalObjects__/TopDown/Maps/GameMap1/5/D0/DB5LDD6J98O0OIB5LZUHU1.uasset",
-				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Maps/GameMap1.umap"
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Maps/GameMap1.umap",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Blueprints/BP_EnemyAI.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/Cursor/M_Cursor.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/32/EHM8SXWMD1NPD2UU877TWT.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/5/7C/1SASI5B77H43CRLY0YEOPP.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/A/4J/518OJ37M7Z36ZWZQZYKBOS.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/D/UW/UJH4GX2WE4JWE4VP0NFBQS.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/ThirdPerson/Blueprints/EnemyAI.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/4/M2/1WGU1QSBDIMNXKT62X06MN.uasset"
 			]
 		}
 	]
