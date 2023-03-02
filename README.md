@@ -7,7 +7,7 @@ Welcome to MacaroniCode! I hope you enjoy!
 Directions and Tips:
 
 - Click or press and hold LMB anywhere on the screen to move
-
+- ESC button to use pause menu
 - Walk over macaroni puzzle pieces to pick them up
 - When all macaroni puzzle pieces have been found, the code will appear at the top of your screen
 - Reach the door without getting caught, and step on each of the pressure plates in order of the code to open the door
