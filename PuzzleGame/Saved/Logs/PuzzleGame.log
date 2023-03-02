@@ -3372,3 +3372,952 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.02-07.03.05:522][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 4.29 sec)
 [2023.03.02-07.03.05:528][750]AssetCheck: New page: Asset Save: Portal2_C_UAID_C4BDE57D873B5F6B01_1170090965
 [2023.03.02-07.03.05:528][750]LogContentValidation: Display: Validating /Game/objects/Portal2.Portal2_C /Game/TopDown/Maps/GameMap1.GameMap1:PersistentLevel.Portal2_C_UAID_C4BDE57D873B5F6B01_1170090965
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: ================================================
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: Total job queries 212, among them cache hits 30 (14.15%)
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: Tracking 182 distinct input hashes that result in 138 distinct outputs (75.82%)
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: RAM used: 1.39 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.03.02-07.09.14:724][723]LogShaderCompilers: Display: ================================================
+[2023.03.02-07.09.36:065][466]LogSlate: Window 'Project Settings' being destroyed
+[2023.03.02-07.09.36:072][466]LogSlate: Window 'Project Settings' being destroyed
+[2023.03.02-07.12.14:542][321]LogLauncherProfile: Project does not require temp target
+[2023.03.02-07.12.14:550][321]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UnrealGame-Win64-Shipping.target
+[2023.03.02-07.12.15:977][450]LogLauncherProfile: Project does not require temp target
+[2023.03.02-07.12.15:979][450]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UnrealGame-Win64-Shipping.target
+[2023.03.02-07.12.24:510][171]LogSlate: Window 'Project Launcher' being destroyed
+[2023.03.02-07.12.24:522][171]LogSlate: Window 'Project Launcher' being destroyed
+[2023.03.02-07.13.05:265][853]LogSlate: Took 0.004714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.03.02-07.13.11:044][507]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2023.03.02-07.13.11:239][507]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2023.03.02-07.13.47:537][656]BlueprintLog: New page: Compile Portal
+[2023.03.02-07.13.47:663][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2023.03.02-07.13.48:196][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.13.48:272][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/Portal" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal.uasset" SILENT=true
+[2023.03.02-07.13.48:277][707]LogSavePackage: Moving output files for package: /Game/objects/Portal
+[2023.03.02-07.13.48:277][707]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/Portal2FA1A8174E45F4C659DB44BB7CB096CF.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal.uasset'
+[2023.03.02-07.13.48:284][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 4.38 sec)
+[2023.03.02-07.13.48:290][707]AssetCheck: New page: Asset Save: Portal
+[2023.03.02-07.13.48:290][707]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/Portal.Portal
+[2023.03.02-07.14.03:895][524]BlueprintLog: New page: Compile Portal2
+[2023.03.02-07.14.03:899][524]LogBlueprint: Error: [AssetLog] C:\Users\camth\Documents\GitHub\PuzzleGame\PuzzleGame\Content\objects\Portal2.uasset: [Compiler] This blueprint (self) is not a BP_TopDownCharacter_C, therefore ' Target ' must have a connection.
+[2023.03.02-07.14.03:899][524]LogBlueprint: Error: [AssetLog] C:\Users\camth\Documents\GitHub\PuzzleGame\PuzzleGame\Content\objects\Portal2.uasset: [Compiler] Variable node  Get LevelsCompleted  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.03.02-07.14.03:991][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.03.02-07.14.04:413][562]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.14.04:484][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/Portal2" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset" SILENT=true
+[2023.03.02-07.14.04:489][562]LogSavePackage: Moving output files for package: /Game/objects/Portal2
+[2023.03.02-07.14.04:489][562]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/Portal28FF2A731432DFF0D576E1FADC2FE1639.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset'
+[2023.03.02-07.14.04:496][562]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 4.46 sec)
+[2023.03.02-07.14.04:501][562]AssetCheck: New page: Asset Save: Portal2
+[2023.03.02-07.14.04:501][562]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/Portal2.Portal2
+[2023.03.02-07.14.07:812][932]BlueprintLog: New page: Compile Portal2
+[2023.03.02-07.14.07:899][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.03.02-07.14.08:412][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.14.08:488][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/Portal2" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset" SILENT=true
+[2023.03.02-07.14.08:492][982]LogSavePackage: Moving output files for package: /Game/objects/Portal2
+[2023.03.02-07.14.08:493][982]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/Portal229FB33494DE4AD53EB4733BDB5847824.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset'
+[2023.03.02-07.14.08:499][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 4.55 sec)
+[2023.03.02-07.14.08:505][982]AssetCheck: New page: Asset Save: Portal2
+[2023.03.02-07.14.08:505][982]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/Portal2.Portal2
+[2023.03.02-07.14.20:647][393]BlueprintLog: New page: Compile EndPortal
+[2023.03.02-07.14.20:651][393]LogBlueprint: Error: [AssetLog] C:\Users\camth\Documents\GitHub\PuzzleGame\PuzzleGame\Content\objects\EndPortal.uasset: [Compiler] This blueprint (self) is not a BP_TopDownCharacter_C, therefore ' Target ' must have a connection.
+[2023.03.02-07.14.20:651][393]LogBlueprint: Error: [AssetLog] C:\Users\camth\Documents\GitHub\PuzzleGame\PuzzleGame\Content\objects\EndPortal.uasset: [Compiler] Variable node  Get LevelsCompleted  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.03.02-07.14.20:736][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.03.02-07.14.21:128][430]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.14.21:199][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/EndPortal" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/EndPortal.uasset" SILENT=true
+[2023.03.02-07.14.21:203][430]LogSavePackage: Moving output files for package: /Game/objects/EndPortal
+[2023.03.02-07.14.21:203][430]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/EndPortal78AD07AB4D1B0B20BBE1E3966039CAFA.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/EndPortal.uasset'
+[2023.03.02-07.14.21:210][430]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 4.63 sec)
+[2023.03.02-07.14.21:217][430]AssetCheck: New page: Asset Save: EndPortal
+[2023.03.02-07.14.21:217][430]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/EndPortal.EndPortal
+[2023.03.02-07.14.25:511][920]BlueprintLog: New page: Compile EndPortal
+[2023.03.02-07.14.25:597][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.03.02-07.14.26:235][985]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.14.26:301][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/EndPortal" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/EndPortal.uasset" SILENT=true
+[2023.03.02-07.14.26:304][985]LogSavePackage: Moving output files for package: /Game/objects/EndPortal
+[2023.03.02-07.14.26:305][985]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/EndPortal2F3B10AA4803932F5DEF03BEF84F0C88.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/EndPortal.uasset'
+[2023.03.02-07.14.26:310][985]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 4.70 sec)
+[2023.03.02-07.14.26:317][985]AssetCheck: New page: Asset Save: EndPortal
+[2023.03.02-07.14.26:317][985]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/EndPortal.EndPortal
+[2023.03.02-07.14.39:404][307]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/BP_HUD.BP_HUD
+[2023.03.02-07.14.39:405][307]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.14.39:421][307]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.14.39:731][307]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.14.39:731][307]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.15.20:216][ 27]BlueprintLog: New page: Compile BP_HUD
+[2023.03.02-07.15.20:319][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.03.02-07.15.20:786][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.15.20:834][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_HUD" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset" SILENT=true
+[2023.03.02-07.15.20:837][ 58]LogSavePackage: Moving output files for package: /Game/UI/BP_HUD
+[2023.03.02-07.15.20:837][ 58]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_HUD6745EE1C418046851E93BC94001734FF.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset'
+[2023.03.02-07.15.20:843][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 4.76 sec)
+[2023.03.02-07.15.20:852][ 58]AssetCheck: New page: Asset Save: BP_HUD
+[2023.03.02-07.15.20:852][ 58]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/BP_HUD.BP_HUD
+[2023.03.02-07.16.30:627][852]LogDerivedDataCache: C:/Users/camth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:44.120 and deleted 0 files with total size 0 MiB. Scanned 22909 files in 21897 folders with total size 4932 MiB.
+[2023.03.02-07.18.45:522][115]BlueprintLog: New page: Compile BP_HUD
+[2023.03.02-07.18.45:626][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.03.02-07.18.46:099][158]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.18.46:155][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_HUD" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset" SILENT=true
+[2023.03.02-07.18.46:159][158]LogSavePackage: Moving output files for package: /Game/UI/BP_HUD
+[2023.03.02-07.18.46:159][158]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_HUDC7C276E940E1894C4B3D79B6C80AE453.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset'
+[2023.03.02-07.18.46:165][158]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 4.83 sec)
+[2023.03.02-07.18.46:173][158]AssetCheck: New page: Asset Save: BP_HUD
+[2023.03.02-07.18.46:173][158]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/BP_HUD.BP_HUD
+[2023.03.02-07.18.47:188][273]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.18.47:188][273]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.19.51:372][381]BlueprintLog: New page: Compile BP_HUD
+[2023.03.02-07.19.51:471][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.03.02-07.19.51:845][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.19.51:892][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_HUD" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset" SILENT=true
+[2023.03.02-07.19.51:897][412]LogSavePackage: Moving output files for package: /Game/UI/BP_HUD
+[2023.03.02-07.19.51:897][412]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_HUD6D49F106479A99EEA126E38DAD93A1CF.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset'
+[2023.03.02-07.19.51:903][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 4.88 sec)
+[2023.03.02-07.19.51:910][412]AssetCheck: New page: Asset Save: BP_HUD
+[2023.03.02-07.19.51:910][412]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/BP_HUD.BP_HUD
+[2023.03.02-07.19.52:951][507]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.02-07.19.52:959][507]LogContentBundle: [Container: GameMap1] Generating Streaming for 0 Content Bundles.
+[2023.03.02-07.19.52:962][507]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.19.52:962][507]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.19.52:962][507]LogWorldPartition: Display: GetPartitionedActors took 10 us (total: 95 us)
+[2023.03.02-07.19.52:962][507]LogWorldPartition: Display: GenerateStreaming took 298 us (total: 102 ms)
+[2023.03.02-07.19.52:962][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-07.19.52:962][507]PIE: New page: PIE session: GameMap1 (Mar 1, 2023, 9:19:52 PM)
+[2023.03.02-07.19.52:963][507]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.19.52:970][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007095s)
+[2023.03.02-07.19.52:970][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/GameMap1.GameMap1 to /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 (0.007123s)
+[2023.03.02-07.19.52:970][507]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.19.52:971][507]LogAIModule: Creating AISystem for world GameMap1
+[2023.03.02-07.19.52:971][507]LogWorldPartition: ULevel::OnLevelLoaded(GameMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.19.52:971][507]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.19.52:971][507]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap1, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.02-07.19.52:972][507]LogContentBundle: [Container: GameMap1] Creating new contrainer.
+[2023.03.02-07.19.52:972][507]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.01 sec)
+[2023.03.02-07.19.52:973][507]LogPlayLevel: PIE: World Init took: (0.002464s)
+[2023.03.02-07.19.53:043][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.03.02-07.19.53:045][507]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.03.02-07.19.53:045][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-07.19.53:045][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-07.19.53:045][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-07.19.53:045][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-07.19.53:045][507]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.02-07.19.53:045][507]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.02-07.19.53:045][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.02-07.19.53:045][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-07.19.53:046][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-07.19.53:046][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-07.19.53:046][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-07.19.53:047][507]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.02-07.19.53:064][507]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.03.02-07.19.53:064][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-07.19.53:064][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-07.19.53:064][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-07.19.53:065][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.03.02-07.19.53:065][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.03.02-07.19.53:066][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.03.02-07.19.53:066][507]LogInit: FAudioDevice initialized.
+[2023.03.02-07.19.53:066][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.03.02-07.19.53:066][507]LogAudio: Display: Audio Device (ID: 10) registered with world 'GameMap1'.
+[2023.03.02-07.19.53:069][507]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.19.53:075][507]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 up for play (max tick rate 0) at 2023.03.02-02.19.53
+[2023.03.02-07.19.53:075][507]LogWorld: Bringing up level for play took: 0.006568
+[2023.03.02-07.19.53:077][507]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2023.03.02-07.19.53:082][507]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-2280.000 Y=3270.000 Z=98.399
+[2023.03.02-07.19.53:083][507]PIE: Server logged in
+[2023.03.02-07.19.53:084][507]PIE: Play in editor total start time 0.125 seconds.
+[2023.03.02-07.19.53:098][507]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.20.13:918][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.20.13:925][655]LogNet: Browse: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.20.13:925][655]LogLoad: LoadMap: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.20.13:925][655]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.20.13:926][655]LogWorld: UWorld::CleanupWorld for GameMap1, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.20.13:926][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.20.13:926][655]LogContentBundle: [Container: GameMap1] Deleting container.
+[2023.03.02-07.20.14:018][655]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.20.14:022][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.03.02-07.20.14:055][655]LogAudio: Display: Audio Device (ID: 10) registered with world 'GameMap3'.
+[2023.03.02-07.20.14:055][655]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.20.14:056][655]LogAIModule: Creating AISystem for world GameMap3
+[2023.03.02-07.20.14:056][655]LogWorldPartition: ULevel::OnLevelLoaded(GameMap3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.20.14:056][655]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.20.14:056][655]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap3, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2023.03.02-07.20.14:065][655]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.20.14:065][655]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.20.14:065][655]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 100 us)
+[2023.03.02-07.20.14:099][655]LogWorldPartition: Display: GenerateStreaming took 34 ms (total: 137 ms)
+[2023.03.02-07.20.14:101][655]LogContentBundle: [Container: GameMap3] Creating new contrainer.
+[2023.03.02-07.20.14:101][655]LogWorldPartition: Display: WorldPartition initialize took 45 ms (total: 2.06 sec)
+[2023.03.02-07.20.14:101][655]LogPlayLevel: PIE: World Init took: (0.046726s)
+[2023.03.02-07.20.14:101][655]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.20.14:114][655]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap3.GameMap3 up for play (max tick rate 0) at 2023.03.02-02.20.14
+[2023.03.02-07.20.14:114][655]LogWorld: Bringing up level for play took: 0.012563
+[2023.03.02-07.20.14:120][655]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-1640.000 Y=2310.000 Z=98.399
+[2023.03.02-07.20.14:120][655]LogLoad: Took 0.193690 seconds to LoadMap(/Game/TopDown/Maps/GameMap3)
+[2023.03.02-07.20.14:123][655]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.20.17:469][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.20.17:469][983]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap3
+[2023.03.02-07.20.17:469][983]LogWorld: UWorld::CleanupWorld for GameMap3, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.20.17:470][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.20.17:470][983]LogContentBundle: [Container: GameMap3] Deleting container.
+[2023.03.02-07.20.17:473][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-07.20.17:479][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.20.17:548][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.20.17:548][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.02-07.20.17:549][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.02-07.20.17:557][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.03.02-07.20.17:575][984]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.03.02-07.20.20:723][324]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.03.02-07.20.20:727][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.20.20:775][324]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/GameMap1/C/TO/MKY6NRN13KJX2EWJHSCULU
+[2023.03.02-07.20.20:776][324]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/MKY6NRN13KJX2EWJHSCULU56F3BD4F4F79CFE589F0EEBDFC754D49.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/GameMap1/C/TO/MKY6NRN13KJX2EWJHSCULU.uasset'
+[2023.03.02-07.20.20:817][324]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2023.03.02-07.20.20:818][324]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_TopDownCharacter64EB0F514DDB984F400B108A507905FD.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2023.03.02-07.20.20:825][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 4.98 sec)
+[2023.03.02-07.20.20:832][324]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.02-07.20.20:832][324]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2023.03.02-07.20.20:832][324]LogContentValidation: Display: Validating /Game/objects/Portal2.Portal2_C /Game/TopDown/Maps/GameMap1.GameMap1:PersistentLevel.Portal2_C_UAID_C4BDE57D873B5F6B01_1170090965
+[2023.03.02-07.20.40:338][620]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.20.40:338][620]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.21.26:818][  2]BlueprintLog: New page: Compile Portal
+[2023.03.02-07.21.26:917][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.03.02-07.21.27:311][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.21.27:387][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/Portal" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal.uasset" SILENT=true
+[2023.03.02-07.21.27:391][ 34]LogSavePackage: Moving output files for package: /Game/objects/Portal
+[2023.03.02-07.21.27:392][ 34]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/Portal5172CC12439E70E9D4ACD481C64169FA.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal.uasset'
+[2023.03.02-07.21.27:398][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 5.07 sec)
+[2023.03.02-07.21.27:407][ 34]AssetCheck: New page: Asset Save: Portal
+[2023.03.02-07.21.27:407][ 34]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/Portal.Portal
+[2023.03.02-07.21.33:367][665]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2023.03.02-07.21.33:500][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.03.02-07.21.34:802][753]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.02-07.21.34:807][753]LogContentBundle: [Container: GameMap1] Generating Streaming for 0 Content Bundles.
+[2023.03.02-07.21.34:808][753]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.21.34:808][753]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.21.34:808][753]LogWorldPartition: Display: GetPartitionedActors took 9 us (total: 110 us)
+[2023.03.02-07.21.34:808][753]LogWorldPartition: Display: GenerateStreaming took 485 us (total: 138 ms)
+[2023.03.02-07.21.34:810][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-07.21.34:810][753]PIE: New page: PIE session: GameMap1 (Mar 1, 2023, 9:21:34 PM)
+[2023.03.02-07.21.34:810][753]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.21.34:817][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007196s)
+[2023.03.02-07.21.34:817][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/GameMap1.GameMap1 to /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 (0.007224s)
+[2023.03.02-07.21.34:817][753]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.21.34:817][753]LogAIModule: Creating AISystem for world GameMap1
+[2023.03.02-07.21.34:817][753]LogWorldPartition: ULevel::OnLevelLoaded(GameMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.21.34:817][753]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.21.34:817][753]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap1, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.02-07.21.34:819][753]LogContentBundle: [Container: GameMap1] Creating new contrainer.
+[2023.03.02-07.21.34:819][753]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.06 sec)
+[2023.03.02-07.21.34:819][753]LogPlayLevel: PIE: World Init took: (0.002623s)
+[2023.03.02-07.21.34:887][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.03.02-07.21.34:889][753]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.03.02-07.21.34:889][753]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-07.21.34:889][753]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-07.21.34:889][753]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-07.21.34:889][753]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-07.21.34:889][753]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.02-07.21.34:889][753]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.02-07.21.34:889][753]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.02-07.21.34:889][753]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-07.21.34:889][753]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-07.21.34:890][753]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-07.21.34:890][753]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-07.21.34:891][753]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.02-07.21.34:908][753]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.03.02-07.21.34:909][753]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-07.21.34:909][753]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-07.21.34:909][753]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-07.21.34:909][753]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.03.02-07.21.34:909][753]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.03.02-07.21.34:911][753]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.03.02-07.21.34:911][753]LogInit: FAudioDevice initialized.
+[2023.03.02-07.21.34:911][753]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.03.02-07.21.34:911][753]LogAudio: Display: Audio Device (ID: 11) registered with world 'GameMap1'.
+[2023.03.02-07.21.34:914][753]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.21.34:920][753]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 up for play (max tick rate 0) at 2023.03.02-02.21.34
+[2023.03.02-07.21.34:921][753]LogWorld: Bringing up level for play took: 0.006503
+[2023.03.02-07.21.34:923][753]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.03.02-07.21.34:927][753]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-2280.000 Y=3270.000 Z=98.399
+[2023.03.02-07.21.34:927][753]PIE: Server logged in
+[2023.03.02-07.21.34:927][753]PIE: Play in editor total start time 0.121 seconds.
+[2023.03.02-07.21.34:940][753]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.21.41:091][404]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.21.41:609][454]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.21.51:387][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.21.51:396][441]LogNet: Browse: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.21.51:396][441]LogLoad: LoadMap: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.21.51:396][441]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.21.51:397][441]LogWorld: UWorld::CleanupWorld for GameMap1, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.21.51:397][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.21.51:397][441]LogContentBundle: [Container: GameMap1] Deleting container.
+[2023.03.02-07.21.51:496][441]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.21.51:499][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.03.02-07.21.51:531][441]LogAudio: Display: Audio Device (ID: 11) registered with world 'GameMap3'.
+[2023.03.02-07.21.51:531][441]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.21.51:532][441]LogAIModule: Creating AISystem for world GameMap3
+[2023.03.02-07.21.51:532][441]LogWorldPartition: ULevel::OnLevelLoaded(GameMap3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.21.51:532][441]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.21.51:532][441]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap3, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2023.03.02-07.21.51:541][441]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.21.51:541][441]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.21.51:541][441]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 116 us)
+[2023.03.02-07.21.51:575][441]LogWorldPartition: Display: GenerateStreaming took 34 ms (total: 172 ms)
+[2023.03.02-07.21.51:578][441]LogContentBundle: [Container: GameMap3] Creating new contrainer.
+[2023.03.02-07.21.51:578][441]LogWorldPartition: Display: WorldPartition initialize took 45 ms (total: 2.11 sec)
+[2023.03.02-07.21.51:578][441]LogPlayLevel: PIE: World Init took: (0.046671s)
+[2023.03.02-07.21.51:578][441]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.21.51:592][441]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap3.GameMap3 up for play (max tick rate 0) at 2023.03.02-02.21.51
+[2023.03.02-07.21.51:592][441]LogWorld: Bringing up level for play took: 0.013814
+[2023.03.02-07.21.51:597][441]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-1640.000 Y=2310.000 Z=98.399
+[2023.03.02-07.21.51:597][441]LogLoad: Took 0.201193 seconds to LoadMap(/Game/TopDown/Maps/GameMap3)
+[2023.03.02-07.21.51:601][441]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.22.05:595][769]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.06:980][910]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.06:990][911]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.09:448][160]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.12:457][459]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.12:467][460]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.13:636][576]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.19:770][189]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.20:711][282]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.23:092][516]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.26:346][850]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.30:575][280]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.30:586][281]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.32:661][491]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.41:117][328]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.42:229][441]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.42:239][442]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.42:504][468]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.42:946][512]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.43:241][542]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.22.44:529][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.22.44:529][665]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap3
+[2023.03.02-07.22.44:529][665]LogWorld: UWorld::CleanupWorld for GameMap3, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.22.44:529][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.22.44:530][665]LogContentBundle: [Container: GameMap3] Deleting container.
+[2023.03.02-07.22.44:532][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-07.22.44:539][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.22.44:605][665]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.22.44:606][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.02-07.22.44:607][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.02-07.22.44:610][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.22.44:616][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.03.02-07.22.44:634][666]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.03.02-07.23.45:107][404]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.23.45:107][404]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.23.46:440][559]BlueprintLog: New page: Compile BP_HUD
+[2023.03.02-07.23.46:543][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.03.02-07.23.46:897][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.23.46:949][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_HUD" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset" SILENT=true
+[2023.03.02-07.23.46:953][588]LogSavePackage: Moving output files for package: /Game/UI/BP_HUD
+[2023.03.02-07.23.46:954][588]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_HUDA93FC1284761E989A863078498E3A1CF.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset'
+[2023.03.02-07.23.46:960][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 5.13 sec)
+[2023.03.02-07.23.46:968][588]AssetCheck: New page: Asset Save: BP_HUD
+[2023.03.02-07.23.46:968][588]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/BP_HUD.BP_HUD
+[2023.03.02-07.23.51:729][143]BlueprintLog: New page: Compile BP_HUD
+[2023.03.02-07.23.51:825][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.02-07.23.52:141][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.23.52:191][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_HUD" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset" SILENT=true
+[2023.03.02-07.23.52:194][166]LogSavePackage: Moving output files for package: /Game/UI/BP_HUD
+[2023.03.02-07.23.52:194][166]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_HUDBA0E9D57430D31353D75D787DB7C8C69.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/BP_HUD.uasset'
+[2023.03.02-07.23.52:201][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 5.19 sec)
+[2023.03.02-07.23.52:208][166]AssetCheck: New page: Asset Save: BP_HUD
+[2023.03.02-07.23.52:208][166]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/BP_HUD.BP_HUD
+[2023.03.02-07.24.00:854][ 95]LogContentBrowser: Deferred new asset file creation: BP_HUD1
+[2023.03.02-07.24.00:860][ 95]LogContentBrowser: Creating deferred item: BP_HUD1
+[2023.03.02-07.24.00:873][ 96]LogContentBrowser: Renaming the item being created (Deferred Item: BP_HUD1).
+[2023.03.02-07.24.03:075][322]LogContentBrowser: Attempting asset rename: BP_HUD1 -> PointsWid
+[2023.03.02-07.24.03:157][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.03.02-07.24.03:165][322]LogContentBrowser: End creating deferred item BP_HUD1
+[2023.03.02-07.24.04:463][442]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/PointsWid.PointsWid
+[2023.03.02-07.24.04:463][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.24.04:479][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.24.04:765][442]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.24.04:765][442]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.24.40:778][701]BlueprintLog: New page: Compile PointsWid
+[2023.03.02-07.24.40:877][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.02-07.24.41:289][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.24.41:335][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PointsWid" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/PointsWid.uasset" SILENT=true
+[2023.03.02-07.24.41:339][725]LogSavePackage: Moving output files for package: /Game/UI/PointsWid
+[2023.03.02-07.24.41:339][725]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/PointsWidF6C72A244166ABC4901289B444514A61.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/PointsWid.uasset'
+[2023.03.02-07.24.41:345][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 5.25 sec)
+[2023.03.02-07.24.41:351][725]AssetCheck: New page: Asset Save: PointsWid
+[2023.03.02-07.24.41:351][725]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PointsWid.PointsWid
+[2023.03.02-07.24.47:831][488]BlueprintLog: New page: Compile PointsWid
+[2023.03.02-07.24.47:928][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.03.02-07.24.48:383][517]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.24.48:435][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PointsWid" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/PointsWid.uasset" SILENT=true
+[2023.03.02-07.24.48:438][517]LogSavePackage: Moving output files for package: /Game/UI/PointsWid
+[2023.03.02-07.24.48:438][517]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/PointsWid123F21EB4D438E78B19098B63CBEBC3E.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/PointsWid.uasset'
+[2023.03.02-07.24.48:446][517]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 5.31 sec)
+[2023.03.02-07.24.48:453][517]AssetCheck: New page: Asset Save: PointsWid
+[2023.03.02-07.24.48:453][517]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PointsWid.PointsWid
+[2023.03.02-07.24.54:758][246]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.24.54:758][246]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.25.13:562][384]LogEditorTransaction: Undo Add In Parameter
+[2023.03.02-07.25.16:114][630]BlueprintLog: New page: Compile PointsWid
+[2023.03.02-07.25.16:214][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.03.02-07.25.16:570][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.25.16:615][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PointsWid" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/PointsWid.uasset" SILENT=true
+[2023.03.02-07.25.16:619][658]LogSavePackage: Moving output files for package: /Game/UI/PointsWid
+[2023.03.02-07.25.16:619][658]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/PointsWid2222498D4EBF4D4DD23EB6A7B9FBF73C.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/PointsWid.uasset'
+[2023.03.02-07.25.16:625][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 5.37 sec)
+[2023.03.02-07.25.16:633][658]AssetCheck: New page: Asset Save: PointsWid
+[2023.03.02-07.25.16:633][658]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PointsWid.PointsWid
+[2023.03.02-07.25.25:050][589]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-07.25.25:050][589]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-07.25.25:050][589]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-07.25.33:038][500]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2023.03.02-07.25.33:191][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.03.02-07.25.33:456][501]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.25.33:539][501]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2023.03.02-07.25.33:539][501]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_TopDownCharacter61C357234BDC296A86C7F083D075046A.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2023.03.02-07.25.33:546][501]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 5.46 sec)
+[2023.03.02-07.25.33:553][501]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2023.03.02-07.25.33:553][501]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2023.03.02-07.25.33:704][517]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.25.33:752][517]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2023.03.02-07.25.33:752][517]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_TopDownCharacter720A996E4B29F0DF39EC8BBB16B95A37.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2023.03.02-07.25.33:758][517]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 5.51 sec)
+[2023.03.02-07.25.33:765][517]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2023.03.02-07.25.33:765][517]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2023.03.02-07.25.34:763][607]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.02-07.25.34:769][607]LogContentBundle: [Container: GameMap1] Generating Streaming for 0 Content Bundles.
+[2023.03.02-07.25.34:770][607]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.25.34:770][607]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.25.34:770][607]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 121 us)
+[2023.03.02-07.25.34:770][607]LogWorldPartition: Display: GenerateStreaming took 248 us (total: 173 ms)
+[2023.03.02-07.25.34:770][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-07.25.34:770][607]PIE: New page: PIE session: GameMap1 (Mar 1, 2023, 9:25:34 PM)
+[2023.03.02-07.25.34:770][607]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.25.34:777][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006685s)
+[2023.03.02-07.25.34:777][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/GameMap1.GameMap1 to /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 (0.006706s)
+[2023.03.02-07.25.34:777][607]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.25.34:777][607]LogAIModule: Creating AISystem for world GameMap1
+[2023.03.02-07.25.34:778][607]LogWorldPartition: ULevel::OnLevelLoaded(GameMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.25.34:778][607]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.25.34:778][607]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap1, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.02-07.25.34:780][607]LogContentBundle: [Container: GameMap1] Creating new contrainer.
+[2023.03.02-07.25.34:780][607]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 2.11 sec)
+[2023.03.02-07.25.34:780][607]LogPlayLevel: PIE: World Init took: (0.003012s)
+[2023.03.02-07.25.34:852][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.02-07.25.34:854][607]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.02-07.25.34:854][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-07.25.34:854][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-07.25.34:854][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-07.25.34:854][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-07.25.34:854][607]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.02-07.25.34:854][607]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.02-07.25.34:854][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.02-07.25.34:854][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-07.25.34:854][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-07.25.34:854][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-07.25.34:854][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-07.25.34:856][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.02-07.25.34:873][607]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.03.02-07.25.34:873][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-07.25.34:873][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-07.25.34:873][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-07.25.34:874][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.03.02-07.25.34:874][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.03.02-07.25.34:875][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.03.02-07.25.34:875][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.03.02-07.25.34:875][607]LogInit: FAudioDevice initialized.
+[2023.03.02-07.25.34:875][607]LogAudio: Display: Audio Device (ID: 12) registered with world 'GameMap1'.
+[2023.03.02-07.25.34:878][607]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.25.34:884][607]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 up for play (max tick rate 0) at 2023.03.02-02.25.34
+[2023.03.02-07.25.34:885][607]LogWorld: Bringing up level for play took: 0.006965
+[2023.03.02-07.25.34:886][607]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.03.02-07.25.34:891][607]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-2280.000 Y=3270.000 Z=98.399
+[2023.03.02-07.25.34:892][607]PIE: Server logged in
+[2023.03.02-07.25.34:893][607]PIE: Play in editor total start time 0.124 seconds.
+[2023.03.02-07.25.34:913][607]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.25.49:850][126]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.25.51:132][250]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.25.52:911][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.25.52:920][436]LogNet: Browse: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.25.52:920][436]LogLoad: LoadMap: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.25.52:920][436]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.25.52:920][436]LogWorld: UWorld::CleanupWorld for GameMap1, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.25.52:921][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.25.52:921][436]LogContentBundle: [Container: GameMap1] Deleting container.
+[2023.03.02-07.25.53:042][436]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.25.53:046][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.03.02-07.25.53:079][436]LogAudio: Display: Audio Device (ID: 12) registered with world 'GameMap3'.
+[2023.03.02-07.25.53:079][436]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.25.53:079][436]LogAIModule: Creating AISystem for world GameMap3
+[2023.03.02-07.25.53:080][436]LogWorldPartition: ULevel::OnLevelLoaded(GameMap3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.25.53:080][436]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.25.53:080][436]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap3, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2023.03.02-07.25.53:089][436]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.25.53:089][436]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.25.53:089][436]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 126 us)
+[2023.03.02-07.25.53:121][436]LogWorldPartition: Display: GenerateStreaming took 33 ms (total: 206 ms)
+[2023.03.02-07.25.53:123][436]LogContentBundle: [Container: GameMap3] Creating new contrainer.
+[2023.03.02-07.25.53:123][436]LogWorldPartition: Display: WorldPartition initialize took 43 ms (total: 2.15 sec)
+[2023.03.02-07.25.53:123][436]LogPlayLevel: PIE: World Init took: (0.044641s)
+[2023.03.02-07.25.53:123][436]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.25.53:137][436]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap3.GameMap3 up for play (max tick rate 0) at 2023.03.02-02.25.53
+[2023.03.02-07.25.53:138][436]LogWorld: Bringing up level for play took: 0.013615
+[2023.03.02-07.25.53:143][436]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-1640.000 Y=2310.000 Z=98.399
+[2023.03.02-07.25.53:143][436]LogLoad: Took 0.223168 seconds to LoadMap(/Game/TopDown/Maps/GameMap3)
+[2023.03.02-07.25.53:148][436]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.25.55:569][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.25.55:569][679]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap3
+[2023.03.02-07.25.55:569][679]LogWorld: UWorld::CleanupWorld for GameMap3, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.25.55:570][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.25.55:570][679]LogContentBundle: [Container: GameMap3] Deleting container.
+[2023.03.02-07.25.55:572][679]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-07.25.55:578][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.25.55:651][679]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.25.55:651][679]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.02-07.25.55:652][679]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.02-07.25.55:655][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.25.55:661][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.03.02-07.25.55:695][680]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.03.02-07.26.05:092][768]BlueprintLog: New page: Compile Portal
+[2023.03.02-07.26.05:192][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.03.02-07.26.06:796][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.02-07.26.06:802][902]LogContentBundle: [Container: GameMap1] Generating Streaming for 0 Content Bundles.
+[2023.03.02-07.26.06:803][902]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.26.06:803][902]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.26.06:803][902]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 131 us)
+[2023.03.02-07.26.06:803][902]LogWorldPartition: Display: GenerateStreaming took 238 us (total: 206 ms)
+[2023.03.02-07.26.06:803][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-07.26.06:804][902]PIE: New page: PIE session: GameMap1 (Mar 1, 2023, 9:26:06 PM)
+[2023.03.02-07.26.06:804][902]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.26.06:810][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005916s)
+[2023.03.02-07.26.06:810][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/GameMap1.GameMap1 to /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 (0.005937s)
+[2023.03.02-07.26.06:810][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.26.06:810][902]LogAIModule: Creating AISystem for world GameMap1
+[2023.03.02-07.26.06:811][902]LogWorldPartition: ULevel::OnLevelLoaded(GameMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.26.06:811][902]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.26.06:811][902]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap1, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.02-07.26.06:813][902]LogContentBundle: [Container: GameMap1] Creating new contrainer.
+[2023.03.02-07.26.06:813][902]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.15 sec)
+[2023.03.02-07.26.06:813][902]LogPlayLevel: PIE: World Init took: (0.002598s)
+[2023.03.02-07.26.06:883][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.03.02-07.26.06:886][902]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.03.02-07.26.06:886][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-07.26.06:886][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-07.26.06:886][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-07.26.06:886][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-07.26.06:886][902]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.02-07.26.06:886][902]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.02-07.26.06:886][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.02-07.26.06:886][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-07.26.06:886][902]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-07.26.06:886][902]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-07.26.06:886][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-07.26.06:888][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.02-07.26.06:904][902]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.03.02-07.26.06:904][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-07.26.06:904][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-07.26.06:904][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-07.26.06:905][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.03.02-07.26.06:905][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.03.02-07.26.06:906][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.03.02-07.26.06:906][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.03.02-07.26.06:906][902]LogInit: FAudioDevice initialized.
+[2023.03.02-07.26.06:906][902]LogAudio: Display: Audio Device (ID: 13) registered with world 'GameMap1'.
+[2023.03.02-07.26.06:909][902]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.26.06:916][902]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 up for play (max tick rate 0) at 2023.03.02-02.26.06
+[2023.03.02-07.26.06:917][902]LogWorld: Bringing up level for play took: 0.007685
+[2023.03.02-07.26.06:918][902]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.03.02-07.26.06:922][902]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-2280.000 Y=3270.000 Z=98.399
+[2023.03.02-07.26.06:923][902]PIE: Server logged in
+[2023.03.02-07.26.06:923][902]PIE: Play in editor total start time 0.122 seconds.
+[2023.03.02-07.26.06:942][902]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.26.19:246][153]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.26.24:524][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.26.24:531][704]LogNet: Browse: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.26.24:531][704]LogLoad: LoadMap: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.26.24:532][704]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.26.24:532][704]LogWorld: UWorld::CleanupWorld for GameMap1, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.26.24:533][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.26.24:533][704]LogContentBundle: [Container: GameMap1] Deleting container.
+[2023.03.02-07.26.24:641][704]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.26.24:645][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.03.02-07.26.24:679][704]LogAudio: Display: Audio Device (ID: 13) registered with world 'GameMap3'.
+[2023.03.02-07.26.24:679][704]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.26.24:679][704]LogAIModule: Creating AISystem for world GameMap3
+[2023.03.02-07.26.24:679][704]LogWorldPartition: ULevel::OnLevelLoaded(GameMap3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.26.24:679][704]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.26.24:680][704]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap3, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2023.03.02-07.26.24:688][704]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.26.24:688][704]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.26.24:688][704]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 137 us)
+[2023.03.02-07.26.24:724][704]LogWorldPartition: Display: GenerateStreaming took 36 ms (total: 242 ms)
+[2023.03.02-07.26.24:726][704]LogContentBundle: [Container: GameMap3] Creating new contrainer.
+[2023.03.02-07.26.24:726][704]LogWorldPartition: Display: WorldPartition initialize took 46 ms (total: 2.20 sec)
+[2023.03.02-07.26.24:726][704]LogPlayLevel: PIE: World Init took: (0.047438s)
+[2023.03.02-07.26.24:726][704]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.26.24:739][704]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap3.GameMap3 up for play (max tick rate 0) at 2023.03.02-02.26.24
+[2023.03.02-07.26.24:739][704]LogWorld: Bringing up level for play took: 0.012976
+[2023.03.02-07.26.24:744][704]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-1640.000 Y=2310.000 Z=98.399
+[2023.03.02-07.26.24:744][704]LogLoad: Took 0.212556 seconds to LoadMap(/Game/TopDown/Maps/GameMap3)
+[2023.03.02-07.26.24:748][704]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.26.26:529][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.26.26:529][882]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap3
+[2023.03.02-07.26.26:529][882]LogWorld: UWorld::CleanupWorld for GameMap3, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.26.26:530][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.26.26:530][882]LogContentBundle: [Container: GameMap3] Deleting container.
+[2023.03.02-07.26.26:533][882]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-07.26.26:538][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.26.26:609][882]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.26.26:609][882]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.02-07.26.26:611][882]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.02-07.26.26:614][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.26.26:620][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.02-07.26.26:653][883]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2023.03.02-07.26.41:184][551]BlueprintLog: New page: Compile PointsWid
+[2023.03.02-07.26.41:289][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.03.02-07.26.42:439][663]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.26.42:439][663]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.26.44:592][882]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.02-07.26.44:598][882]LogContentBundle: [Container: GameMap1] Generating Streaming for 0 Content Bundles.
+[2023.03.02-07.26.44:599][882]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.26.44:599][882]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.26.44:599][882]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 144 us)
+[2023.03.02-07.26.44:600][882]LogWorldPartition: Display: GenerateStreaming took 273 us (total: 243 ms)
+[2023.03.02-07.26.44:600][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-07.26.44:600][882]PIE: New page: PIE session: GameMap1 (Mar 1, 2023, 9:26:44 PM)
+[2023.03.02-07.26.44:600][882]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.26.44:606][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006434s)
+[2023.03.02-07.26.44:606][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/GameMap1.GameMap1 to /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 (0.006478s)
+[2023.03.02-07.26.44:606][882]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.26.44:606][882]LogAIModule: Creating AISystem for world GameMap1
+[2023.03.02-07.26.44:607][882]LogWorldPartition: ULevel::OnLevelLoaded(GameMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.26.44:607][882]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.26.44:607][882]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap1, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.02-07.26.44:608][882]LogContentBundle: [Container: GameMap1] Creating new contrainer.
+[2023.03.02-07.26.44:608][882]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.20 sec)
+[2023.03.02-07.26.44:608][882]LogPlayLevel: PIE: World Init took: (0.002061s)
+[2023.03.02-07.26.44:679][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.03.02-07.26.44:681][882]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.03.02-07.26.44:681][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-07.26.44:681][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-07.26.44:681][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-07.26.44:681][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-07.26.44:681][882]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.02-07.26.44:681][882]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.02-07.26.44:681][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.02-07.26.44:681][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-07.26.44:682][882]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-07.26.44:682][882]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-07.26.44:682][882]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-07.26.44:683][882]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.02-07.26.44:700][882]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.03.02-07.26.44:700][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-07.26.44:701][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-07.26.44:701][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-07.26.44:701][882]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.03.02-07.26.44:701][882]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.03.02-07.26.44:703][882]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.03.02-07.26.44:703][882]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.03.02-07.26.44:703][882]LogInit: FAudioDevice initialized.
+[2023.03.02-07.26.44:703][882]LogAudio: Display: Audio Device (ID: 14) registered with world 'GameMap1'.
+[2023.03.02-07.26.44:705][882]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.26.44:712][882]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 up for play (max tick rate 0) at 2023.03.02-02.26.44
+[2023.03.02-07.26.44:713][882]LogWorld: Bringing up level for play took: 0.007644
+[2023.03.02-07.26.44:715][882]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2023.03.02-07.26.44:719][882]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-2280.000 Y=3270.000 Z=98.399
+[2023.03.02-07.26.44:720][882]PIE: Server logged in
+[2023.03.02-07.26.44:720][882]PIE: Play in editor total start time 0.123 seconds.
+[2023.03.02-07.26.44:739][882]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.26.57:582][184]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.27.00:704][498]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.27.01:574][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.27.01:583][597]LogNet: Browse: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.27.01:583][597]LogLoad: LoadMap: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.27.01:583][597]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.27.01:585][597]LogWorld: UWorld::CleanupWorld for GameMap1, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.27.01:585][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.27.01:585][597]LogContentBundle: [Container: GameMap1] Deleting container.
+[2023.03.02-07.27.01:687][597]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.27.01:691][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.03.02-07.27.01:724][597]LogAudio: Display: Audio Device (ID: 14) registered with world 'GameMap3'.
+[2023.03.02-07.27.01:724][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.27.01:724][597]LogAIModule: Creating AISystem for world GameMap3
+[2023.03.02-07.27.01:725][597]LogWorldPartition: ULevel::OnLevelLoaded(GameMap3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.27.01:725][597]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.27.01:725][597]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap3, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2023.03.02-07.27.01:732][597]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.27.01:732][597]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.27.01:732][597]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 150 us)
+[2023.03.02-07.27.01:766][597]LogWorldPartition: Display: GenerateStreaming took 32 ms (total: 275 ms)
+[2023.03.02-07.27.01:768][597]LogContentBundle: [Container: GameMap3] Creating new contrainer.
+[2023.03.02-07.27.01:768][597]LogWorldPartition: Display: WorldPartition initialize took 43 ms (total: 2.25 sec)
+[2023.03.02-07.27.01:768][597]LogPlayLevel: PIE: World Init took: (0.044012s)
+[2023.03.02-07.27.01:768][597]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.27.01:780][597]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap3.GameMap3 up for play (max tick rate 0) at 2023.03.02-02.27.01
+[2023.03.02-07.27.01:780][597]LogWorld: Bringing up level for play took: 0.012715
+[2023.03.02-07.27.01:786][597]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-1640.000 Y=2310.000 Z=98.399
+[2023.03.02-07.27.01:786][597]LogLoad: Took 0.203030 seconds to LoadMap(/Game/TopDown/Maps/GameMap3)
+[2023.03.02-07.27.01:790][597]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.27.03:219][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.27.03:219][739]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap3
+[2023.03.02-07.27.03:219][739]LogWorld: UWorld::CleanupWorld for GameMap3, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.27.03:220][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.27.03:220][739]LogContentBundle: [Container: GameMap3] Deleting container.
+[2023.03.02-07.27.03:223][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-07.27.03:228][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.27.03:300][739]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.27.03:300][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.02-07.27.03:301][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.02-07.27.03:304][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.27.03:308][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.03.02-07.27.03:343][740]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2023.03.02-07.27.57:171][329]BlueprintLog: New page: Compile EndPortal
+[2023.03.02-07.27.57:277][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.03.02-07.27.57:738][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.27.57:800][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/EndPortal" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/EndPortal.uasset" SILENT=true
+[2023.03.02-07.27.57:804][368]LogSavePackage: Moving output files for package: /Game/objects/EndPortal
+[2023.03.02-07.27.57:804][368]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/EndPortal9965713040CF21315D7B4BB390011C2C.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/EndPortal.uasset'
+[2023.03.02-07.27.57:812][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 5.58 sec)
+[2023.03.02-07.27.57:820][368]AssetCheck: New page: Asset Save: EndPortal
+[2023.03.02-07.27.57:820][368]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/EndPortal.EndPortal
+[2023.03.02-07.28.06:776][386]BlueprintLog: New page: Compile Portal
+[2023.03.02-07.28.06:874][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.03.02-07.28.07:200][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.28.07:267][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/Portal" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal.uasset" SILENT=true
+[2023.03.02-07.28.07:271][408]LogSavePackage: Moving output files for package: /Game/objects/Portal
+[2023.03.02-07.28.07:271][408]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/PortalCA4254AD48E2AB8C2D7D3ABEC0666A9C.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal.uasset'
+[2023.03.02-07.28.07:277][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 5.66 sec)
+[2023.03.02-07.28.07:284][408]AssetCheck: New page: Asset Save: Portal
+[2023.03.02-07.28.07:284][408]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/Portal.Portal
+[2023.03.02-07.28.16:755][502]BlueprintLog: New page: Compile Portal2
+[2023.03.02-07.28.16:855][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.03.02-07.28.17:343][542]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.28.17:408][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/Portal2" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset" SILENT=true
+[2023.03.02-07.28.17:413][542]LogSavePackage: Moving output files for package: /Game/objects/Portal2
+[2023.03.02-07.28.17:413][542]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/Portal2CD90C86A45E42AD9DEE061AF88F2C7DD.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset'
+[2023.03.02-07.28.17:420][542]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 5.74 sec)
+[2023.03.02-07.28.17:426][542]AssetCheck: New page: Asset Save: Portal2
+[2023.03.02-07.28.17:426][542]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/Portal2.Portal2
+[2023.03.02-07.28.27:314][716]LogEditorTransaction: Undo Create Pin Link
+[2023.03.02-07.28.27:789][733]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.28:185][770]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.28:399][787]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.28:619][805]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.28:785][816]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.28:967][830]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.29:135][842]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.29:324][857]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.29:488][869]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.29:666][883]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.29:849][897]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.30:044][913]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.30:278][933]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.30:550][958]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.30:821][983]LogEditorTransaction: Undo Nudge Node
+[2023.03.02-07.28.31:158][ 15]LogEditorTransaction: Undo Delete current selection
+[2023.03.02-07.28.34:945][417]BlueprintLog: New page: Compile Portal2
+[2023.03.02-07.28.35:053][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.03.02-07.28.35:413][441]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.28.35:489][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/Portal2" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset" SILENT=true
+[2023.03.02-07.28.35:493][441]LogSavePackage: Moving output files for package: /Game/objects/Portal2
+[2023.03.02-07.28.35:493][441]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/Portal23A2BD77C424646B2D59816A859A60D1C.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset'
+[2023.03.02-07.28.35:500][441]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 5.83 sec)
+[2023.03.02-07.28.35:507][441]AssetCheck: New page: Asset Save: Portal2
+[2023.03.02-07.28.35:507][441]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/Portal2.Portal2
+[2023.03.02-07.28.39:555][870]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.02-07.28.39:562][870]LogContentBundle: [Container: GameMap1] Generating Streaming for 0 Content Bundles.
+[2023.03.02-07.28.39:563][870]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.28.39:563][870]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.28.39:563][870]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 157 us)
+[2023.03.02-07.28.39:563][870]LogWorldPartition: Display: GenerateStreaming took 256 us (total: 276 ms)
+[2023.03.02-07.28.39:563][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-07.28.39:564][870]PIE: New page: PIE session: GameMap1 (Mar 1, 2023, 9:28:39 PM)
+[2023.03.02-07.28.39:564][870]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.28.39:569][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006257s)
+[2023.03.02-07.28.39:569][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/GameMap1.GameMap1 to /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 (0.006281s)
+[2023.03.02-07.28.39:569][870]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.28.39:570][870]LogAIModule: Creating AISystem for world GameMap1
+[2023.03.02-07.28.39:570][870]LogWorldPartition: ULevel::OnLevelLoaded(GameMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.28.39:570][870]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.28.39:570][870]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap1, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.02-07.28.39:572][870]LogContentBundle: [Container: GameMap1] Creating new contrainer.
+[2023.03.02-07.28.39:572][870]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.25 sec)
+[2023.03.02-07.28.39:572][870]LogPlayLevel: PIE: World Init took: (0.002382s)
+[2023.03.02-07.28.39:645][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.03.02-07.28.39:647][870]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.03.02-07.28.39:647][870]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-07.28.39:647][870]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-07.28.39:647][870]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-07.28.39:647][870]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-07.28.39:647][870]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.02-07.28.39:647][870]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.02-07.28.39:647][870]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.02-07.28.39:647][870]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-07.28.39:648][870]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-07.28.39:648][870]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-07.28.39:648][870]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-07.28.39:649][870]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.02-07.28.39:667][870]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.03.02-07.28.39:667][870]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-07.28.39:667][870]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-07.28.39:667][870]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-07.28.39:668][870]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.03.02-07.28.39:668][870]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.03.02-07.28.39:669][870]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.03.02-07.28.39:669][870]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.03.02-07.28.39:669][870]LogInit: FAudioDevice initialized.
+[2023.03.02-07.28.39:669][870]LogAudio: Display: Audio Device (ID: 15) registered with world 'GameMap1'.
+[2023.03.02-07.28.39:671][870]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.28.39:678][870]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 up for play (max tick rate 0) at 2023.03.02-02.28.39
+[2023.03.02-07.28.39:678][870]LogWorld: Bringing up level for play took: 0.007162
+[2023.03.02-07.28.39:680][870]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2023.03.02-07.28.39:685][870]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-2280.000 Y=3270.000 Z=98.399
+[2023.03.02-07.28.39:686][870]PIE: Server logged in
+[2023.03.02-07.28.39:686][870]PIE: Play in editor total start time 0.125 seconds.
+[2023.03.02-07.28.39:706][870]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.28.52:307][147]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.28.54:615][377]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.28.54:940][409]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.28.54:951][410]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.28.55:010][416]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] END
+[2023.03.02-07.28.56:157][539]LogNet: Browse: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.28.56:157][539]LogLoad: LoadMap: /Game/TopDown/Maps/GameMap3
+[2023.03.02-07.28.56:157][539]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.28.56:157][539]LogWorld: UWorld::CleanupWorld for GameMap1, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.28.56:158][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.28.56:158][539]LogContentBundle: [Container: GameMap1] Deleting container.
+[2023.03.02-07.28.56:257][539]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.28.56:261][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.03.02-07.28.56:293][539]LogAudio: Display: Audio Device (ID: 15) registered with world 'GameMap3'.
+[2023.03.02-07.28.56:293][539]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.28.56:294][539]LogAIModule: Creating AISystem for world GameMap3
+[2023.03.02-07.28.56:294][539]LogWorldPartition: ULevel::OnLevelLoaded(GameMap3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.28.56:294][539]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.28.56:294][539]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap3, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2023.03.02-07.28.56:303][539]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.28.56:303][539]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.28.56:303][539]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 163 us)
+[2023.03.02-07.28.56:338][539]LogWorldPartition: Display: GenerateStreaming took 34 ms (total: 310 ms)
+[2023.03.02-07.28.56:340][539]LogContentBundle: [Container: GameMap3] Creating new contrainer.
+[2023.03.02-07.28.56:340][539]LogWorldPartition: Display: WorldPartition initialize took 45 ms (total: 2.29 sec)
+[2023.03.02-07.28.56:340][539]LogPlayLevel: PIE: World Init took: (0.046169s)
+[2023.03.02-07.28.56:340][539]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.28.56:356][539]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap3.GameMap3 up for play (max tick rate 0) at 2023.03.02-02.28.56
+[2023.03.02-07.28.56:357][539]LogWorld: Bringing up level for play took: 0.016387
+[2023.03.02-07.28.56:362][539]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-1640.000 Y=2310.000 Z=98.399
+[2023.03.02-07.28.56:362][539]LogLoad: Took 0.205003 seconds to LoadMap(/Game/TopDown/Maps/GameMap3)
+[2023.03.02-07.28.56:366][539]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.28.58:768][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.28.58:768][777]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap3
+[2023.03.02-07.28.58:768][777]LogWorld: UWorld::CleanupWorld for GameMap3, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.28.58:769][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.28.58:769][777]LogContentBundle: [Container: GameMap3] Deleting container.
+[2023.03.02-07.28.58:771][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-07.28.58:778][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.28.58:850][777]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.28.58:850][777]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.02-07.28.58:852][777]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.02-07.28.58:854][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.28.58:859][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.03.02-07.28.58:894][778]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2023.03.02-07.29.39:333][549]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.29.39:333][549]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.03.02-07.29.43:621][ 39]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2023.03.02-07.29.43:772][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.03.02-07.29.44:126][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.29.44:223][ 42]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2023.03.02-07.29.44:223][ 42]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_TopDownCharacter67653ADB495E2ECE6C07DA9C5799FBC3.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2023.03.02-07.29.44:229][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 5.93 sec)
+[2023.03.02-07.29.44:236][ 42]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2023.03.02-07.29.44:236][ 42]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2023.03.02-07.29.45:493][161]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.02-07.29.45:499][161]LogContentBundle: [Container: GameMap1] Generating Streaming for 0 Content Bundles.
+[2023.03.02-07.29.45:501][161]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.02-07.29.45:501][161]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.02-07.29.45:501][161]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 170 us)
+[2023.03.02-07.29.45:501][161]LogWorldPartition: Display: GenerateStreaming took 272 us (total: 311 ms)
+[2023.03.02-07.29.45:502][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-07.29.45:502][161]PIE: New page: PIE session: GameMap1 (Mar 1, 2023, 9:29:45 PM)
+[2023.03.02-07.29.45:502][161]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.29.45:508][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006619s)
+[2023.03.02-07.29.45:508][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/GameMap1.GameMap1 to /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 (0.006643s)
+[2023.03.02-07.29.45:508][161]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.02-07.29.45:508][161]LogAIModule: Creating AISystem for world GameMap1
+[2023.03.02-07.29.45:508][161]LogWorldPartition: ULevel::OnLevelLoaded(GameMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.02-07.29.45:508][161]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.02-07.29.45:508][161]LogWorldPartition: UWorldPartition::Initialize(Asset=GameMap1, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.02-07.29.45:511][161]LogContentBundle: [Container: GameMap1] Creating new contrainer.
+[2023.03.02-07.29.45:511][161]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.29 sec)
+[2023.03.02-07.29.45:511][161]LogPlayLevel: PIE: World Init took: (0.002128s)
+[2023.03.02-07.29.45:581][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.03.02-07.29.45:583][161]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.02-07.29.45:583][161]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-07.29.45:583][161]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-07.29.45:583][161]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-07.29.45:583][161]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-07.29.45:583][161]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.02-07.29.45:583][161]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.02-07.29.45:583][161]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.02-07.29.45:583][161]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-07.29.45:583][161]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-07.29.45:583][161]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-07.29.45:583][161]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-07.29.45:585][161]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.02-07.29.45:602][161]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.03.02-07.29.45:602][161]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-07.29.45:602][161]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-07.29.45:602][161]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-07.29.45:603][161]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.03.02-07.29.45:603][161]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.03.02-07.29.45:604][161]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.03.02-07.29.45:604][161]LogInit: FAudioDevice initialized.
+[2023.03.02-07.29.45:604][161]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.03.02-07.29.45:604][161]LogAudio: Display: Audio Device (ID: 16) registered with world 'GameMap1'.
+[2023.03.02-07.29.45:606][161]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.03.02-07.29.45:614][161]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_GameMap1.GameMap1 up for play (max tick rate 0) at 2023.03.02-02.29.45
+[2023.03.02-07.29.45:615][161]LogWorld: Bringing up level for play took: 0.008082
+[2023.03.02-07.29.45:616][161]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.03.02-07.29.45:621][161]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=-2280.000 Y=3270.000 Z=98.399
+[2023.03.02-07.29.45:622][161]PIE: Server logged in
+[2023.03.02-07.29.45:623][161]PIE: Play in editor total start time 0.123 seconds.
+[2023.03.02-07.29.45:640][161]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Starter_Wind06'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.03.02-07.29.48:099][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.29.48:099][434]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_GameMap1
+[2023.03.02-07.29.48:099][434]LogWorld: UWorld::CleanupWorld for GameMap1, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-07.29.48:100][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.29.48:100][434]LogContentBundle: [Container: GameMap1] Deleting container.
+[2023.03.02-07.29.48:102][434]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-07.29.48:108][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-07.29.48:180][434]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-07.29.48:180][434]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.02-07.29.48:182][434]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.02-07.29.48:185][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-07.29.48:188][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.03.02-07.29.48:232][435]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.03.02-07.30.01:856][950]BlueprintLog: New page: Compile Portal2
+[2023.03.02-07.30.01:963][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.02-07.30.02:409][985]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.30.02:478][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/Portal2" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset" SILENT=true
+[2023.03.02-07.30.02:482][985]LogSavePackage: Moving output files for package: /Game/objects/Portal2
+[2023.03.02-07.30.02:482][985]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/Portal2055957FC4BD78C33F1B693A207DC5FC9.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/objects/Portal2.uasset'
+[2023.03.02-07.30.02:489][985]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 6.01 sec)
+[2023.03.02-07.30.02:495][985]AssetCheck: New page: Asset Save: Portal2
+[2023.03.02-07.30.02:495][985]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/objects/Portal2.Portal2
+[2023.03.02-07.30.20:439][ 91]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2023.03.02-07.30.20:584][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.03.02-07.30.21:147][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.30.21:226][117]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2023.03.02-07.30.21:226][117]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/BP_TopDownCharacterFED629C442D075600EBE298E7FE4A996.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2023.03.02-07.30.21:234][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 6.10 sec)
+[2023.03.02-07.30.21:240][117]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2023.03.02-07.30.21:240][117]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2023.03.02-07.30.31:946][356]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.03.02-07.30.31:950][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.02-07.30.31:998][356]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/GameMap1/C/TO/MKY6NRN13KJX2EWJHSCULU
+[2023.03.02-07.30.31:998][356]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/MKY6NRN13KJX2EWJHSCULU33AA50F846BB6986E7DD4286916DCE75.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/__ExternalActors__/TopDown/Maps/GameMap1/C/TO/MKY6NRN13KJX2EWJHSCULU.uasset'
+[2023.03.02-07.30.32:002][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PointsWid" FILE="../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/PointsWid.uasset" SILENT=true
+[2023.03.02-07.30.32:006][356]LogSavePackage: Moving output files for package: /Game/UI/PointsWid
+[2023.03.02-07.30.32:006][356]LogSavePackage: Moving '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Saved/PointsWid81EF8D9A4B63A9EC99F864869F600A84.tmp' to '../../../../../../Users/camth/Documents/GitHub/PuzzleGame/PuzzleGame/Content/UI/PointsWid.uasset'
+[2023.03.02-07.30.32:013][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 6.16 sec)
+[2023.03.02-07.30.32:019][356]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.02-07.30.32:019][356]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PointsWid.PointsWid
+[2023.03.02-07.30.32:020][356]LogContentValidation: Display: Validating /Game/objects/Portal2.Portal2_C /Game/TopDown/Maps/GameMap1.GameMap1:PersistentLevel.Portal2_C_UAID_C4BDE57D873B5F6B01_1170090965
